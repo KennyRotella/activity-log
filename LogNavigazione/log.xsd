@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- log.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          
+       <xs:element name="EventoNavigazione">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="nomeApplicazione" type="xs:string"></xs:element>
+                            <xs:element name="ipClient" type="xs:string"></xs:element>
+                            <xs:element name="timestamp" type="xs:string"></xs:element>
+                        </xs:sequence>
+                     <xs:attribute name="evento" type="xs:string"></xs:attribute>
+                 </xs:complexType>
+        </xs:element>
+</xs:schema>

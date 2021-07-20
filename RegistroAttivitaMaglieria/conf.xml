@@ -1,0 +1,9 @@
+<registroattivitamaglieria.Configurazione>
+  <operatore>Maria Rossi</operatore>
+  <ipServerLog>localhost</ipServerLog>
+  <portServerLog>8080</portServerLog>
+  <usernameDB>root</usernameDB>
+  <passwordDB></passwordDB>
+  <ipDB>localhost</ipDB>
+  <portDB>3306</portDB>
+</registroattivitamaglieria.Configurazione>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cache.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+       <xs:element name="registroattivitamaglieria.Configurazione">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="operatore" type="xs:string"></xs:element>
+                            <xs:element name="ipServerLog" type="xs:string"></xs:element>
+                            <xs:element name="portServerLog" type="xs:int"></xs:element>
+                            <xs:element name="usernameDB" type="xs:string"></xs:element>
+                            <xs:element name="passwordDB"></xs:element>
+                            <xs:element name="ipDB" type="xs:string"></xs:element>
+                            <xs:element name="portDB" type="xs:int"></xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+        </xs:element>
+</xs:schema>
